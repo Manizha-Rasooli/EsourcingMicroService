@@ -1,0 +1,47 @@
+services:
+  esourcing.products:
+    build:
+      context: C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService
+      dockerfile: ESourcing.Products/Dockerfile
+    container_name: esourcingproduct
+    depends_on:
+      esourcingdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ProductDatabaseSettings:ConnectionStrings: mongodb://esourcingdb:27017
+    image: esourcingproducts
+    ports:
+    - published: 8000
+      target: 80
+    volumes:
+    - /ASP.NET/Https:/root/.aspnet/https:ro
+    - /Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+  esourcing.sourcing:
+    build:
+      context: C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService
+      dockerfile: Esourcing.Sourcing/Dockerfile
+    container_name: esourcingsourcing
+    depends_on:
+      esourcingdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      SourcingDatabaseSettings:ConnectionStrings: mongodb://esourcingdb:27017
+    image: esourcingsourcing
+    ports:
+    - published: 8001
+      target: 80
+    volumes:
+    - /ASP.NET/Https:/root/.aspnet/https:ro
+    - /Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+  esourcingdb:
+    container_name: esourcingdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+version: '3.4'
