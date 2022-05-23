@@ -30,7 +30,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\maniz\\OneDrive\\Desktop\\Udemy\\ESourcing\\src\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+                "projectPath": "C:\\Users\\maniz\\OneDrive\\Desktop\\Udemy\\ESourcing\\src\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -43,6 +47,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.11.1, )"
@@ -74,6 +82,81 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\maniz\\OneDrive\\Desktop\\Udemy\\ESourcing\\src\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maniz\\OneDrive\\Desktop\\Udemy\\ESourcing\\src\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "projectName": "EventBusRabbitMQ",
+        "projectPath": "C:\\Users\\maniz\\OneDrive\\Desktop\\Udemy\\ESourcing\\src\\E-SourcingMicroService\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\maniz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maniz\\OneDrive\\Desktop\\Udemy\\ESourcing\\src\\E-SourcingMicroService\\EventBusRabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\maniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

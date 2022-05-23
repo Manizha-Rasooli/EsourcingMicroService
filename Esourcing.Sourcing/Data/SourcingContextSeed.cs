@@ -36,7 +36,7 @@ namespace Esourcing.Sourcing.Data
                         "seler2@test.com",
                         "seler3@test.com"
                     },
-                    Quantity="s",
+                    Quantity=1,
                     Status= (int)Status.Active
                 },
                 new Auction()
@@ -53,7 +53,7 @@ namespace Esourcing.Sourcing.Data
                         "seler2@test.com",
                         "seler3@test.com"
                     },
-                    Quantity="s",
+                    Quantity=2,
                     Status= (int)Status.Active
                 },
                 new Auction()
@@ -70,7 +70,7 @@ namespace Esourcing.Sourcing.Data
                         "seler2@test.com",
                         "seler3@test.com"
                     },
-                    Quantity="s",
+                    Quantity=3,
                     Status= (int)Status.Active
                 }
             };

@@ -25,8 +25,11 @@ services:
     depends_on:
       esourcingdb:
         condition: service_started
+      rabbitmq:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      EventBus:HostName: rabbitmq
       SourcingDatabaseSettings:ConnectionStrings: mongodb://esourcingdb:27017
     image: esourcingsourcing
     ports:
@@ -44,4 +47,13 @@ services:
     restart: always
     volumes:
     - /site:/data/db:rw
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
 version: '3.4'
