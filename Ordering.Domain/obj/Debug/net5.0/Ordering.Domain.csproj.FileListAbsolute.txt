@@ -1,0 +1,12 @@
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\Ordering.Domain.deps.json
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\Ordering.Domain.dll
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\ref\Ordering.Domain.dll
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\bin\Debug\net5.0\Ordering.Domain.pdb
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.csproj.AssemblyReference.cache
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.AssemblyInfoInputs.cache
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.AssemblyInfo.cs
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.dll
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\ref\Ordering.Domain.dll
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\Ordering.Domain\obj\Debug\net5.0\Ordering.Domain.pdb

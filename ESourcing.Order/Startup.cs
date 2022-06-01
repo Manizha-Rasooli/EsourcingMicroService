@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Ordering.Application;
+using Ordering.Infrustructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +28,12 @@ namespace ESourcing.Order
         {
 
             services.AddControllers();
+            #region Add Infrustructure
+            services.AddInfrustructure(Configuration);
+            #endregion
+            #region Add Application
+            services.AddApplication();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

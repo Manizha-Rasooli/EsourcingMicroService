@@ -8,4 +8,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ordering.Infrustructure\Ordering.Infrustructure.csproj" />
+  </ItemGroup>
+
 </Project>
