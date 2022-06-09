@@ -75,3 +75,4 @@ C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\ESour
 C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\ESourcing.Order\bin\Debug\net5.0\Ordering.Application.dll
 C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\ESourcing.Order\bin\Debug\net5.0\Ordering.Application.pdb
 C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\ESourcing.Order\obj\Debug\net5.0\ESourcing.Order.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\maniz\OneDrive\Desktop\Udemy\ESourcing\src\E-SourcingMicroService\ESourcing.Order\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
